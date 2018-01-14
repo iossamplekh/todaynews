@@ -17,6 +17,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         super.viewDidLoad()
         setUpView()
     }
+    
     func setUpView(){
         self.todayNewsTableView.delegate = self
         self.todayNewsTableView.dataSource = self
