@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B6EE465200BB0C5002CBCBA /* MealData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6EE464200BB0C5002CBCBA /* MealData.swift */; };
 		0B7D0CC9200B978500CE1C9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7D0CC8200B978500CE1C9B /* AppDelegate.swift */; };
 		0B7D0CCB200B978500CE1C9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7D0CCA200B978500CE1C9B /* ViewController.swift */; };
 		0B7D0CCE200B978500CE1C9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B7D0CCC200B978500CE1C9B /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		02E79EFFFFE39C38CC413891 /* Pods-TodayNewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayNewsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TodayNewsTests/Pods-TodayNewsTests.release.xcconfig"; sourceTree = "<group>"; };
+		0B6EE464200BB0C5002CBCBA /* MealData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealData.swift; sourceTree = "<group>"; };
 		0B7D0CC5200B978500CE1C9B /* TodayNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodayNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B7D0CC8200B978500CE1C9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B7D0CCA200B978500CE1C9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 		0B7D0CC7200B978500CE1C9B /* TodayNews */ = {
 			isa = PBXGroup;
 			children = (
+				0B6EE464200BB0C5002CBCBA /* MealData.swift */,
 				0B7D0CC8200B978500CE1C9B /* AppDelegate.swift */,
 				0B7D0CCA200B978500CE1C9B /* ViewController.swift */,
 				0B7D0CCC200B978500CE1C9B /* Main.storyboard */,
@@ -466,6 +469,7 @@
 			files = (
 				0B7D0CCB200B978500CE1C9B /* ViewController.swift in Sources */,
 				0B7D0CC9200B978500CE1C9B /* AppDelegate.swift in Sources */,
+				0B6EE465200BB0C5002CBCBA /* MealData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

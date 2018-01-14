@@ -8,17 +8,35 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
+    @IBOutlet var todayNewsTableView: UITableView!
+    
+    var mealData: [[String:String]] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        setUpView()
+    }
+    func setUpView(){
+        self.todayNewsTableView.delegate = self
+        self.todayNewsTableView.dataSource = self
+        
+        mealData = MealData.shared.data
+       
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return mealData.count
     }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = UITableViewCell(style: .default, reuseIdentifier: nil)
+        cell.textLabel?.text = mealData[indexPath.row]["name"]
+        
+        return cell
+        
+    }
+    
 
 
 }
