@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0B6EE465200BB0C5002CBCBA /* MealData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6EE464200BB0C5002CBCBA /* MealData.swift */; };
+		0B6EE468200BB7EE002CBCBA /* TodayNewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6EE466200BB7EE002CBCBA /* TodayNewsTableViewCell.swift */; };
+		0B6EE469200BB7EE002CBCBA /* TodayNewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B6EE467200BB7EE002CBCBA /* TodayNewsTableViewCell.xib */; };
 		0B7D0CC9200B978500CE1C9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7D0CC8200B978500CE1C9B /* AppDelegate.swift */; };
 		0B7D0CCB200B978500CE1C9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7D0CCA200B978500CE1C9B /* ViewController.swift */; };
 		0B7D0CCE200B978500CE1C9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B7D0CCC200B978500CE1C9B /* Main.storyboard */; };
@@ -40,6 +42,8 @@
 /* Begin PBXFileReference section */
 		02E79EFFFFE39C38CC413891 /* Pods-TodayNewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayNewsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TodayNewsTests/Pods-TodayNewsTests.release.xcconfig"; sourceTree = "<group>"; };
 		0B6EE464200BB0C5002CBCBA /* MealData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealData.swift; sourceTree = "<group>"; };
+		0B6EE466200BB7EE002CBCBA /* TodayNewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayNewsTableViewCell.swift; sourceTree = "<group>"; };
+		0B6EE467200BB7EE002CBCBA /* TodayNewsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TodayNewsTableViewCell.xib; sourceTree = "<group>"; };
 		0B7D0CC5200B978500CE1C9B /* TodayNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodayNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B7D0CC8200B978500CE1C9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B7D0CCA200B978500CE1C9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +127,8 @@
 				0B7D0CCF200B978500CE1C9B /* Assets.xcassets */,
 				0B7D0CD1200B978500CE1C9B /* LaunchScreen.storyboard */,
 				0B7D0CD4200B978500CE1C9B /* Info.plist */,
+				0B6EE466200BB7EE002CBCBA /* TodayNewsTableViewCell.swift */,
+				0B6EE467200BB7EE002CBCBA /* TodayNewsTableViewCell.xib */,
 			);
 			path = TodayNews;
 			sourceTree = "<group>";
@@ -284,6 +290,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B6EE469200BB7EE002CBCBA /* TodayNewsTableViewCell.xib in Resources */,
 				0B7D0CD3200B978500CE1C9B /* LaunchScreen.storyboard in Resources */,
 				0B7D0CD0200B978500CE1C9B /* Assets.xcassets in Resources */,
 				0B7D0CCE200B978500CE1C9B /* Main.storyboard in Resources */,
@@ -467,6 +474,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B6EE468200BB7EE002CBCBA /* TodayNewsTableViewCell.swift in Sources */,
 				0B7D0CCB200B978500CE1C9B /* ViewController.swift in Sources */,
 				0B7D0CC9200B978500CE1C9B /* AppDelegate.swift in Sources */,
 				0B6EE465200BB0C5002CBCBA /* MealData.swift in Sources */,
